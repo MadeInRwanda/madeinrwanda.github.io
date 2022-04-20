@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    nav{
+        @apply flex justify-center items-center px-4 py-2 gap-6 shadow;
+    }
+    nav #menus{
+        @apply hidden lg:flex;
+    }
+    nav ul{
+        @apply inline-flex gap-4 text-gray-600;
+    }
+
+    nav ul  a{
+        @apply hover:text-gray-900 transition-all;
+    }
+}

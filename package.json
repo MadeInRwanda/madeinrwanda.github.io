@@ -1,0 +1,15 @@
+{
+  "name": "madeinrwanda.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MadeInRwanda/madeinrwanda.github.io.git",
+  "author": "Fidele K.Cyisa <itfidele@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:css":"npx tailwindcss -i ./tailwind.css -o ./css/main.css --watch"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}
