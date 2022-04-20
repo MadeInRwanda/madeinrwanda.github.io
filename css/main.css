@@ -640,8 +640,27 @@ nav ul  a:hover {
   font-size: 16px;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-\[\#4479A3\] {
+  --tw-text-opacity: 1;
+  color: rgb(68 121 163 / var(--tw-text-opacity));
+}
+
+.text-\[\#FCDB34\] {
+  --tw-text-opacity: 1;
+  color: rgb(252 219 52 / var(--tw-text-opacity));
+}
+
+.text-\[\#018110\] {
+  --tw-text-opacity: 1;
+  color: rgb(1 129 16 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
