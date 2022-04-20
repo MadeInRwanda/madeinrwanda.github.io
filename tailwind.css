@@ -4,7 +4,7 @@
 
 @layer components{
     nav{
-        @apply flex justify-center items-center px-4 py-2 gap-6 shadow;
+        @apply flex justify-center items-center px-4 py-2 gap-6 shadow-md;
     }
     nav #menus{
         @apply hidden lg:flex;
